@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Arial Regular"), url("/font/arial/ARIAL.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    src: local("Arial Italic"), url("/font/arial/ARIALI.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Arial Medium"), url("/font/arial/ArialMdm.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 500;
+    src: local("Arial Medium Italic"), url("/font/arial/ArialMdmItl.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Arial Bold"), url("/font/arial/ARIALBD.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 700;
+    src: local("Arial Bold Italic"), url("/font/arial/ARIALBI.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 800;
+    src: local("Arial Black"), url("/font/arial/ARIBLK.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 800;
+    src: local("Arial Black Italic"),
+        url("/font/arial/ARIALBLACKITALIC.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Arial Light Regular"), url("/font/arial/ARIALLGT.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 300;
+    src: local("Arial Light Italic"), url("/font/arial/ARIALLGTITL.woff") format("woff");
+}
