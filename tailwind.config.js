@@ -7,6 +7,7 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['"Arial"', defaultTheme.fontFamily.sans],
+                serif: ['"EB Garamond"', defaultTheme.fontFamily.serif],
             },
         },
     },
