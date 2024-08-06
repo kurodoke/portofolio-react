@@ -7,17 +7,17 @@ export interface PageBarrierProps {
 export function PageBarrier(props: PageBarrierProps) : ReactElement{
     return (
         <>
-            <h5 className="font-sans font-normal text-xl">A./{props.word}</h5>
-            <h5 className="font-sans font-normal text-xl">&</h5>
-            <h5 className="font-sans font-normal text-xl">B./portofolio</h5>
-            <h5 className="font-sans font-normal text-xl">./of</h5>
-            <h5 className="font-serif font-normal text-xl">✹</h5>
-            <h5 className="font-sans font-normal text-xl">(kurodoke)</h5>
-            <h5 className="font-serif font-normal text-xl">✹</h5>
-            <h5 className="font-sans font-normal text-xl">./of</h5>
-            <h5 className="font-sans font-normal text-xl">B./portofolio</h5>
-            <h5 className="font-sans font-normal text-xl">&</h5>
-            <h5 className="font-sans font-normal text-xl">A./{props.word}</h5>
+            <h5 className="font-sans text-base lg:text-xl md:text-lg">A./{props.word}</h5>
+            <h5 className="font-sans text-base hidden lg:text-xl md:text-lg sm:block">&</h5>
+            <h5 className="font-sans text-base hidden lg:text-xl md:text-lg sm:block">B./portofolio</h5>
+            <h5 className="font-sans text-base hidden lg:text-xl md:text-lg sm:block">./of</h5>
+            <h5 className="font-serif text-base lg:text-xl md:text-lg">✹</h5>
+            <h5 className="font-sans text-base lg:text-xl md:text-lg">(kurodoke)</h5>
+            <h5 className="font-serif text-base lg:text-xl md:text-lg">✹</h5>
+            <h5 className="font-sans text-base hidden lg:text-xl md:text-lg sm:block">./of</h5>
+            <h5 className="font-sans text-base hidden lg:text-xl md:text-lg sm:block">B./portofolio</h5>
+            <h5 className="font-sans text-base hidden lg:text-xl md:text-lg sm:block">&</h5>
+            <h5 className="font-sans text-base lg:text-xl md:text-lg">A./{props.word}</h5>
         </>
     );
 }

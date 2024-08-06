@@ -12,7 +12,7 @@ export function NavPage(props: NavPageProps): ReactElement {
 
     return (
         <a className="flex flex-col gap-0 justify-center items-center font-sans" href={props.url}>
-            <p className="text-2xl text-blue-500 hover:text-blue-900 transition-all">[{props.name.toLocaleLowerCase()}]</p>
+            <p className="text-lg md:text-xl lg:text-2xl text-black hover:text-blue-900 transition-all">[{props.name.toLocaleLowerCase()}]</p>
             <p className="text-xs">({data})</p>
         </a>
     );
